@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="icon" href="imgs/img4.jpg" />
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>ToDoList</title>
+  </head>
+  <body>
+    <div class="container shadow my-5 py-5">
+      <div class="title d-flex align-items-center justify-content-center gap-3">
+        <i class="fa fa-check bg-primary text-white fs-1 rounded p-2"></i>
+        <h1>My ToDo List</h1>
+      </div>
+      <form>
+        <label class="form-label w-100 fs-3" for="input">Event</label>
+        <input class="form-control" id="input" type="text" />
+        <input class="form-control w-25 my-4" type="date" id="date" />
+        <button id="btn" type="button" class="btn btn-outline-dark">Submit</button>
+      </form>
+      <section id="display" class="mt-5 ">
+        <div class="row" id="TaskContent">
+          
+        </div>
+      </section>
+    </div>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+.add{
+  right: 20px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+i{
+  cursor: pointer;
+}
+.container {
+  border-radius: 10px;
+}
